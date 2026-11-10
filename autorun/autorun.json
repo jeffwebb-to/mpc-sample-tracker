@@ -1,0 +1,14 @@
+{
+  "value0": {
+    "scripts": [
+      {
+        "path": "tracker.sh",
+        "askQuestion": false,
+        "message": "Start the tracker?",
+        "yesButtonText": "Tracker",
+        "noButtonText": "Stock"
+      }
+    ],
+    "files": []
+  }
+}

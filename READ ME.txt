@@ -1,0 +1,27 @@
+MPCTRACKER
+
+Copy the "autorun" and "tracker" folders to the root of an SD card and insert it.
+Save your MPC project first. The tracker starts a few seconds after the sampler boots.
+
+Hold SHIFT and press STOP to quit back to the sampler. Your song is saved to
+tracker/songs/AUTOSAVE.mst when you quit and loaded again next time.
+Take the card out and power cycle for a normal boot.
+
+PLAY / STOP        play, stop
+SEQ RECORD         switch the pads between playing and writing
+SCREEN 1 / 2 / 3   pattern, samples, song   (with SHIFT: save, load, new)
+DATA               move; SHIFT + DATA changes the value under the cursor
+PLUS / MINUS       next / previous column
+PAD BANK           sample bank A to D
+16 LEVELS          pads play one sample as a keyboard
+NOTE REPEAT        pads are the 16 rows on screen
+MUTE + pad 1-8     mute a track
+CHOP               undo (SHIFT + CHOP is redo)
+ERASE              clear
+MAIN VOLUME        master volume
+
+Put WAV files in tracker/samples, or browse to any folder on the card.
+.mod files in tracker/songs can be loaded with SHIFT + SCREEN 2.
+
+This is an unofficial modification. It runs from RAM and only writes inside the
+"tracker" folder on the card. Use it at your own risk and back up your card first.

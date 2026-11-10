@@ -1,0 +1,12 @@
+build/
+dist/
+*.o
+.DS_Store
+*.swp
+
+# music and audio never goes in the repo (demo songs go in demo/, which stays local)
+*.mod
+*.xm
+*.it
+*.s3m
+*.wav
